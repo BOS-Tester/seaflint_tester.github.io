@@ -258,3 +258,15 @@ hr {
   background-color: #cccccc;
 }
 
+@media (max-width:768px) {
+  header {
+    background-image: url('../../assets/img/mobile_background.png');
+  }
+}
+
+@media (min-width:769px) {
+  header {
+    background-image: url('../../assets/img/background.png');
+  }
+}
+
